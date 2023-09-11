@@ -166,7 +166,7 @@ header a:hover {
 .van-tile img {
     max-width: 100%;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 /* 
 .van-list-container button {
@@ -207,4 +207,52 @@ header a:hover {
 
 .van-type.luxury:hover, .van-type.luxury.selected {
     background-color: #161616;
+}
+
+/* VAN DETAIL PAGE */
+
+i[class*='van-type-'] {
+    padding: 7px 14px;
+}
+.van-detail-container {
+    padding: 27px;
+}
+
+.van-detail-container .back-button {
+    color: black;
+    text-decoration: none;
+}
+.van-detail {
+    display: flex;
+    flex-direction: column;
+    color: #161616;
+}
+
+.van-detail img {
+    border-radius: 5px;
+    margin-block: 47px;
+}
+
+.van-detail h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.van-detail > i {
+    align-self: flex-start;
+}
+
+.van-detail .van-price span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.van-detail .link-button {
+    background-color: #FF8C38;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.van-detail-container .back-button span {
+    text-decoration: underline;
 }
